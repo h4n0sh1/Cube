@@ -1,6 +1,6 @@
 # 3D Formula Renderer
 
-A minimal 3D graphics renderer in pure C, inspired by [Alexey Kutepov (Tsoding)](https://github.com/tsoding)'s ["One Formula That Demystifies 3D Graphics"](https://github.com/tsoding/formula) video.
+A minimal 3D graphics renderer in pure C, inspired by the great [Alexey Kutepov (Tsoding)](https://github.com/tsoding)'s ["One Formula That Demystifies 3D Graphics"](https://github.com/tsoding/formula) video.
 
 ## Features
 

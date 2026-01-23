@@ -41,7 +41,7 @@ void draw_pixel(int x, int y, uint32_t color) {
 void draw_point(int cx, int cy, int radius, uint32_t color) {
     for (int dy = -radius; dy <= radius; dy++) {
         for (int dx = -radius; dx <= radius; dx++) {
-            if (dx * dx + dy * dy <= radius * radius) {
+            if (dx * dx + dy * dy <= radius * radius) { // Formule d'un cercle x^2 + y^2 = r^2 ; Appartenance au cercle x^2 + y^2 <= r^2
                 draw_pixel(cx + dx, cy + dy, color);
             }
         }
